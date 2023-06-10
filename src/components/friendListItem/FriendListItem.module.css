@@ -1,0 +1,27 @@
+.item {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 300px;
+  box-shadow: 1px 2px 7px 3px rgba(0, 0, 0, 0.3);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.statusOnline {
+  background-color: green;
+}
+
+.statusOfline {
+  background-color: red;
+}
